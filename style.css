@@ -1,8 +1,21 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: Helvetica, sans-serif;
+    color: rgb(32, 32, 32);
 }
 
 #cabecalho {
     position: fixed;
     top: 0px;
 }
+
+nav ul li.nave {
+    display: inline-block;
+    margin: 40px;
+    font-weight: 600;
+    float: right;
+    margin-top: 3px;
+    color: black;
+    text-decoration: none;
+}
+
