@@ -14,16 +14,17 @@ nav ul li.nave {
     display: inline-block;
     margin: 40px;
     font-weight: 600;
-    float: right;
     margin-top: 3px;
     color: black;
     text-decoration: none;
+    float: right;
 }
 
 #text-left{
     float: left;
     margin-bottom: 10px;
     width: auto;
+    line-height: 30px;
 }
 #text-right{
     float: right;
@@ -31,6 +32,7 @@ nav ul li.nave {
     margin-bottom: 10px;
     margin-right: 20px;
     width: auto;
+    line-height: 30px;
 }
 
 h2 {
@@ -57,3 +59,7 @@ a {
     font-size: 20px;
 }
 
+.imge{
+    display: block;
+    margin-left: 380px;
+}
