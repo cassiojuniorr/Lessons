@@ -7,6 +7,7 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
+    color: rgb(0, 247, 62);
 }
 
 nav ul li.nave {
@@ -17,5 +18,42 @@ nav ul li.nave {
     margin-top: 3px;
     color: black;
     text-decoration: none;
+}
+
+#text-left{
+    float: left;
+    margin-bottom: 10px;
+    width: auto;
+}
+#text-right{
+    float: right;
+    margin-left:  100px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    width: auto;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+.link {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+div.link a {
+    color: #0a66c2;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#rodape {
+    margin-top: 30px;
+}
+.paragrafo {
+    font-size: 20px;
 }
 
