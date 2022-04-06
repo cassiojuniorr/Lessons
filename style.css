@@ -20,13 +20,13 @@ nav ul li.nave {
     float: right;
 }
 
-#text-left{
+.lado-esquerdo{
     float: left;
     margin-bottom: 10px;
     width: auto;
     line-height: 30px;
 }
-#text-right{
+.lado-direito{
     float: right;
     margin-left:  100px;
     margin-bottom: 10px;
@@ -57,9 +57,12 @@ a {
 }
 .paragrafo {
     font-size: 20px;
+    display: table;
 }
 
 .imge{
     display: block;
     margin-left: 380px;
 }
+
+
