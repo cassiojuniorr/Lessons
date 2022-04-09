@@ -2,6 +2,7 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: Helvetica, sans-serif;
     color: rgb(32, 32, 32);
+    display: table;
 }
 
 #cabecalho {
@@ -57,7 +58,8 @@ a {
 }
 .paragrafo {
     font-size: 20px;
-    display: table;
+    border : 1px solid rgb(156, 156, 156);
+    padding: 3px;
 }
 
 .imge{
